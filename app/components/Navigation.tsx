@@ -6,6 +6,8 @@ import { FiMenu} from "react-icons/fi";
 import { AiOutlineClose} from "react-icons/ai";
 import { cn } from "../utils/helper";
 import { useState, useEffect } from "react";
+import Image from "next/image";
+import Avator from "../../public/user_img.jpg";
 
 export function Navigation() {
 
@@ -20,7 +22,7 @@ export function Navigation() {
     <nav className="py-4 border-b sticky border-zinc-800 shadow-md top-0 z-10 bg-zinc-900/20 backdrop-blur-md">
       <div className="max-w-7xl px-4 md:px-8 mx-auto flex justify-between items-center">
       <span>
-        <img src="https://avatars.githubusercontent.com/u/146245393?s=400&u=b7b68d49bb1ce20c2871756f5ffd9125d597e69f&v=4" alt="avatar img"
+        <Image src={Avator} alt="avatar img"
         width={35} height={35} className="rounded-full"
         />
       </span>
