@@ -7,7 +7,6 @@ import { AiOutlineClose} from "react-icons/ai";
 import { cn } from "../utils/helper";
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import Avator from "../../public/user_img.jpg";
 
 export function Navigation() {
 
@@ -22,7 +21,7 @@ export function Navigation() {
     <nav className="py-4 border-b sticky border-zinc-800 shadow-md top-0 z-10 bg-zinc-900/20 backdrop-blur-md">
       <div className="max-w-7xl px-4 md:px-8 mx-auto flex justify-between items-center">
       <span>
-        <Image src={Avator} alt="avatar img"
+        <Image src="/user_img.jpg" alt="avatar img"
         width={35} height={35} className="rounded-full"
         />
       </span>
