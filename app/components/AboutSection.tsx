@@ -13,7 +13,7 @@ function AboutSection() {
                 <Image src="/programmer-01.svg" alt="programmer image" width={600} height={600} className="w-f h-f object-cover"/>
             </div>
             <div className='space-y-2' >
-                <p className="text-zinc-400">A highly motivated junior web developer, developing and maintaining websites and web applications using programming languages such as HTML, CSS, JavaScript & Python. I pursued a Bachelor of Engineering in Information Science from the University Of Technology(Yatanarpon Cyber City). I have temporarily suspended my studies at the moment. I'm currently learning Scrimba(Online Coding School). My passionate is trying out new things and applying them in practical situations.</p>
+                <p className="text-zinc-400">A highly motivated junior web developer, developing and maintaining websites and web applications using programming languages such as HTML, CSS, JavaScript & Python. I pursued a Bachelor of Engineering in Information Science from the University Of Technology(Yatanarpon Cyber City). I have temporarily suspended my studies at the moment. I&apos;m currently learning Scrimba(Online Coding School). My passionate is trying out new things and applying them in practical situations.</p>
                 <ul className="flex mt-4 gap-2">
                   {socialLinks.map(({icon: Icon, href}, index) => {
                     return (

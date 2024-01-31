@@ -2,6 +2,7 @@
 import { projects } from "@/data/projectData";
 import { CustomLink } from "./CustomLink";
 import { Heading } from "./Heading";
+import Image from "next/image";
 
 export function ProjectSection() {
     return (
@@ -27,7 +28,7 @@ interface IProjectCard {
 function ProjectCard({project}: IProjectCard) {
     return <div className="bg-zinc-800/50 border border-zinc-800 rounded-lg overflow-hidden cursor-pointer">
         <div>
-            <img src={project.image} alt={project.title} width={400} height={400} className="w-full h-full object-cover"/>
+            <Image src={project.image} alt={project.title} width={400} height={400} className="w-full h-full object-cover"/>
         </div>
         <div className="py-4 mx-8">
             <ul className="flex gap-4 mb-3">
