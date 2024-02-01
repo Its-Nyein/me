@@ -9,19 +9,19 @@ export const projects = [
     },
 
     {
-        title: "Note App",
-        description: "A mark down note app project adding to the firebase and with features of more modified notes adding to the top and deleting notes.",
-        stacks: ["React.js", "Firebase",],
-        image: "/tenzies.jpg",
+        title: "Shopify",
+        description: "Animated modern E-commerce website.",
+        stacks: ["React.js", "Tailwind CSS",],
+        image: "/shopify.png",
         sourceCode: "https://github.com/Its-Nyein/note-app",
         liveAt: "https://github.com",
     },
 
     {
         title: "Note App",
-        description: "A mark down note app project adding to the firebase and with features of more modified notes adding to the top and deleting notes.",
-        stacks: ["React.js", "Firebase",],
-        image: "/tenzies.jpg",
+        description: "A dynamic and no responsive movie website project. Animated carousel slider, dynamic filter and animated header with scroll effect.",
+        stacks: ["React.js", "Bootstrap",],
+        image: "/movie_website.png",
         sourceCode: "https://github.com/Its-Nyein/note-app",
         liveAt: "https://github.com",
     },
