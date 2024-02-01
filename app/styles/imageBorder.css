@@ -1,0 +1,13 @@
+.avatar::before {
+  content: "";
+  background: linear-gradient(
+    180deg,
+    #e4e4e7,
+    #e4e4e7,
+    #e4e4e7,
+    #e4e4e7,
+    #a1a1aa,
+    #52525b
+  );
+  border-radius: 50%;
+}
