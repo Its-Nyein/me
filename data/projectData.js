@@ -14,7 +14,7 @@ export const projects = [
         stacks: ["React.js", "Bootstrap",],
         image: "/movie_website.png",
         sourceCode: "https://github.com/Its-Nyein/movie-website",
-        liveAt: "https://github.com",
+        liveAt: "https://moviiee.vercel.app/",
     },
 
 
@@ -51,7 +51,7 @@ export const projects = [
         stacks: ["React.js", "Vite", "Tailwind"],
         image: "/weather_app.png",
         sourceCode: "https://github.com/Its-Nyein/weather-app",
-        liveAt: "https://github.com/Its-Nyein/weather-app",
+        liveAt: "https://weather-app-omega-puce.vercel.app/",
     },
 
 ]
