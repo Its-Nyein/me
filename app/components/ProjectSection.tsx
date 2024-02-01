@@ -28,7 +28,7 @@ interface IProjectCard {
 function ProjectCard({project}: IProjectCard) {
     return <div className="bg-zinc-800/50 border border-zinc-800 rounded-lg overflow-hidden cursor-pointer">
         <div>
-            <Image src={project.image} alt={project.title} width={400} height={400} className="w-full h-[220px] object-cover"/>
+            <Image src={project.image} alt={project.title} width={400} height={400} className="w-full h-[220px] object-cover object-center"/>
         </div>
         <div className="py-4 mx-8">
             <ul className="flex gap-4 mb-3">
