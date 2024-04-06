@@ -21,11 +21,13 @@ export function Navigation() {
   return (
     <nav className="py-4 border-b sticky border-zinc-800 shadow-md top-0 z-10 bg-zinc-900/20 backdrop-blur-md">
       <div className="max-w-7xl px-4 md:px-8 mx-auto flex justify-between items-center">
-      <a href="#home" className="flex items-center z-[-6] h-[40px] w-[40px] justify-center rounded-full bg-white shadow-md avatar before:absolute before:z-[-5] before:h-[39px] before:w-[39px] before:animate-[spin_4s_linear_infinite]">
+      <div>
+        <a href="#home" className="flex items-center z-[-6] h-[40px] w-[40px] justify-center rounded-full bg-white shadow-md avatar before:absolute before:z-[-5] before:h-[39px] before:w-[39px] before:animate-[spin_4s_linear_infinite]">
         <Image src="/user_img.jpg" alt="avatar img"
         width={35} height={35} className="justify-center items-center rounded-full bg-white shadow-md"
         />
       </a>
+      </div>
       <div className="md:hidden cursor-pointer" onClick={() => setIsNavOpen(pervNavOpen => !pervNavOpen)}>
         {isNavOpen ? <AiOutlineClose className="text-2xl"/> : <FiMenu className="text-2xl"/>}
       </div>
