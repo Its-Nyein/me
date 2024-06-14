@@ -22,7 +22,7 @@ export function Navigation() {
     <nav className="py-4 border-b sticky border-zinc-800 shadow-md top-0 z-10 bg-zinc-900/20 backdrop-blur-md">
       <div className="max-w-7xl px-4 md:px-8 mx-auto flex justify-between items-center">
       <div>
-        <a href="#home" className="flex items-center z-[-6] h-[40px] w-[40px] justify-center rounded-full bg-white shadow-md avatar before:absolute before:z-[-5] before:h-[39px] before:w-[39px] before:animate-[spin_4s_linear_infinite]">
+        <a href="#home" className="flex items-center z-[-6] h-[42px] w-[42px] translate-y-[-5px] justify-center rounded-full shadow-md avatar__img before:absolute before:z-[-10] before:h-[40px] before:w-[40px] before:animate-[spin_4s_linear_infinite] before:items-center before:rounded-full before:bg-[length: 100%]">
         <Image src="/user_img.jpg" alt="avatar img"
         width={35} height={35} className="justify-center items-center rounded-full bg-white shadow-md"
         />
@@ -35,7 +35,7 @@ export function Navigation() {
         "max-md:fixed max-md:top-[58px] max-md:py-10 max-md:left-0 max-md:w-full max-md:min-h-screen max-md:bg-zinc-800 max-md:backdrop-blur-lg"
         , !isNavOpen && "max-md:hidden"
       )}>
-        <ul className="flex flex-col md:flex-row gap-6 items-center gap-6">
+        <ul className="flex flex-col md:flex-row gap-6 items-center">
           {navMenuList.map(({title, href}, index) => {
             const isLastElement = index === navMenuList.length - 1;
             return (

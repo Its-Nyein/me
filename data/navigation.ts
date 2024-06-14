@@ -17,10 +17,5 @@ export const navMenuList = [
     {
         title: "About",
         href: "#about",
-    },
-
-    {
-        title: "Hire Me",
-        href: "#hire_me",
     }
 ]

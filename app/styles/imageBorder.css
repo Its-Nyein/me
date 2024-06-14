@@ -1,13 +1,22 @@
-.avatar::before {
+.avatar__img::before {
   content: "";
+  /* background: linear-gradient(
+    180deg,
+    #e8aeda,
+    #ee6dc7,
+    #d995d6,
+    #d7a4c4,
+    #9d5e7a,
+    #52525b
+  ); */
   background: linear-gradient(
     180deg,
-    #e4e4e7,
-    #e4e4e7,
-    #e4e4e7,
-    #e4e4e7,
-    #a1a1aa,
-    #52525b
+    #43cea2,
+    #185a9d,
+    #185a9d,
+    #185a9d,
+    #185a9d,
+    #43cea2
   );
   border-radius: 50%;
 }
