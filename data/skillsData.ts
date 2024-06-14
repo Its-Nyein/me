@@ -17,57 +17,49 @@ export const skills = {
             {
                 stack: "JavaScript",
                 icon: SiJavascript,
-                color: '#F7DF1E',
-                backgroundColor: "#323330"
+                color: '#F7DF1E'
             },
 
             {
                 stack: "TypeScript",
                 icon: SiTypescript,
-                color: '#007acc',
-                backgroundColor: "#20232A"
+                color: '#007acc'
             },
 
             {
                 stack: "React.js",
                 icon: FaReact,
-                color: '#61DAFB',
-                backgroundColor: "#20232A"
+                color: '#61DAFB'
             },
 
             {
                 stack: "Angular",
                 icon: FaAngular,
-                color: '#DD0031',
-                backgroundColor: "#F0F0F0"
+                color: '#DD0031'
             },
 
             {
                 stack: "HTML5",
                 icon: FaHtml5,
-                color: '#E34F26',
-                backgroundColor: "#F0F0F0"
+                color: '#E34F26'
             },
 
             {
                 stack: "CSS",
                 icon: FaCss3,
-                color: '#1572B6',
-                backgroundColor: "#F0F0F0"
+                color: '#1572B6'
             },
 
             {
                 stack: "Tailwind CSS",
                 icon: SiTailwindcss,
-                color: '#06B6D4',
-                backgroundColor: "#F0F0F0"
+                color: '#06B6D4'
             },
 
             {
                 stack: "Bootstrap",
                 icon: FaBootstrap,
-                color: '#7952B3',
-                backgroundColor: "#F0F0F0"
+                color: '#7952B3'
             },
         ]
     },
@@ -77,36 +69,31 @@ export const skills = {
             {
                 stack: "PHP",
                 icon: FaPhp,
-                color: '#4F5B93',
-                backgroundColor: "#F0F0F0"
+                color: '#4F5B93'
             },
 
             {
                 stack: "Laravel",
                 icon: FaLaravel,
-                color: '#FF2D20',
-                backgroundColor: "#F0F0F0"
+                color: '#FF2D20'
             },
 
             {
                 stack: "MySQL",
                 icon: GrMysql,
-                color: '#4479A1',
-                backgroundColor: "#E0E0E0"
+                color: '#4479A1'
             },
 
             {
                 stack: "Firebase",
                 icon: IoLogoFirebase,
-                color: '#FFCA28',
-                backgroundColor: "#F0F0F0"
+                color: '#FFCA28'
             },
 
             {
                 stack: "Python",
                 icon: FaPython,
-                color: '#3776AB',
-                backgroundColor: "#FFD43B"
+                color: '#3776AB'
             },
         ]
     }
