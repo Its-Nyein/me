@@ -62,7 +62,7 @@ function TimelineSection() {
               >
                 <div className={`${styles.content} shadow-neuro dark:shadow-neuro-dark`}>
                   <i className={`theme shadow-md relative`}>
-                    <Icon className="text-2xl absolute left-1 top-1"/>
+                    <Icon className="text-2xl absolute left-[5px] top-1"/>
                   </i>
 
                   {content && typeof content === 'function' ? (
