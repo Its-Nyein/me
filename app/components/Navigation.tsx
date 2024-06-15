@@ -23,7 +23,7 @@ export function Navigation() {
     <nav className="py-4 border-b sticky border-zinc-800 shadow-md top-0 z-10 bg-zinc-900/20 backdrop-blur-md">
       <div className="max-w-7xl px-4 md:px-8 mx-auto flex justify-between items-center">
       <div>
-        <a href="https://nyeinphyoaung.vercel.app/" className="flex items-center z-[-6] h-[42px] w-[42px] translate-y-[-5px] justify-center rounded-full shadow-md avatar__img before:absolute before:z-[-10] before:h-[40px] before:w-[40px] before:animate-[spin_4s_linear_infinite] before:items-center before:rounded-full before:bg-[length: 100%]">
+        <a href="#home" className="flex items-center z-[-6] h-[42px] w-[42px] translate-y-[-5px] justify-center rounded-full shadow-md avatar__img before:absolute before:z-[-10] before:h-[40px] before:w-[40px] before:animate-[spin_4s_linear_infinite] before:items-center before:rounded-full before:bg-[length: 100%]">
         {
           !imageLoaded && (
             <div className="absolute z-10 flex items-center justify-center h-full w-full rounded-full image__loaded">
