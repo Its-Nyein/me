@@ -20,6 +20,9 @@ const config: Config = {
             },
     backgroundColor: {
       dark: 'rgb(20, 27, 31)',
+    },
+    borderWidth: {
+      3: '3px'
     }
     },
   },

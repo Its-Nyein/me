@@ -1,8 +1,8 @@
-import { FaReact, FaHtml5,FaCss3, FaPhp, FaLaravel, FaPython, FaAngular } from "react-icons/fa";
+import { FaReact, FaHtml5,FaCss3, FaPhp, FaLaravel, FaPython, FaAngular, FaNodeJs  } from "react-icons/fa";
 import {
     SiJavascript,
-    SiVitest,
-    SiTailwindcss
+    SiTailwindcss,
+    SiMongodb
 } from "react-icons/si";
 import { FaBootstrap } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
@@ -67,6 +67,17 @@ export const skills = {
         title: "Backend-",
         stacks: [
             {
+                stack: "NodeJs",
+                icon: FaNodeJs,
+                color: '#68A063'
+            },
+
+            // {
+            //     stack: "ExpressJs",
+            //     icon:
+            // },
+
+            {
                 stack: "PHP",
                 icon: FaPhp,
                 color: '#4F5B93'
@@ -82,6 +93,12 @@ export const skills = {
                 stack: "MySQL",
                 icon: GrMysql,
                 color: '#4479A1'
+            },
+
+            {
+                stack: "MongoDB",
+                icon: SiMongodb,
+                color: '#589636'
             },
 
             {
