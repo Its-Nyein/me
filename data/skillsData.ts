@@ -77,17 +77,17 @@ export const skills = {
             //     icon:
             // },
 
-            {
-                stack: "PHP",
-                icon: FaPhp,
-                color: '#4F5B93'
-            },
+            // {
+            //     stack: "PHP",
+            //     icon: FaPhp,
+            //     color: '#4F5B93'
+            // },
 
-            {
-                stack: "Laravel",
-                icon: FaLaravel,
-                color: '#FF2D20'
-            },
+            // {
+            //     stack: "Laravel",
+            //     icon: FaLaravel,
+            //     color: '#FF2D20'
+            // },
 
             {
                 stack: "MySQL",
