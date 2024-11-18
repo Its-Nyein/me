@@ -8,6 +8,7 @@ import { FaBootstrap } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { IoLogoFirebase } from "react-icons/io5";
 import { SiTypescript } from 'react-icons/si';
+import { SiNextdotjs } from "react-icons/si";
 
 
 export const skills = {
@@ -27,9 +28,15 @@ export const skills = {
             },
 
             {
-                stack: "React.js",
+                stack: "React",
                 icon: FaReact,
                 color: '#61DAFB'
+            },
+
+            {
+                stack: "Next",
+                icon: SiNextdotjs,
+                color: '#000'
             },
 
             {

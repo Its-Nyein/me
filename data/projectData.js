@@ -4,9 +4,19 @@ export const projects = [
     description:
       "Build a dynamic features of Modern Real Estate Marketplace with react MERN Stack(jwt, redux toolkit)",
     stacks: ["React.js", "Express", "Mongo", "Tailwind"],
-    image: "/m3rn.png",
+    image: "/mern_estate.png",
     sourceCode: "https://github.com/Its-Nyein/mern-estate",
     liveAt: "https://m3rnestate.onrender.com/",
+  },
+
+  {
+    title: "Yaycha",
+    description:
+      "A mini social media app enables users to interact with each other through posts, comments, and likes features.",
+    stacks: ["React.js", "MUI", "NodeJs", "PrismsORM"],
+    image: "/yaycha.png",
+    sourceCode: "https://github.com/Its-Nyein/yaycha",
+    liveAt: "https://yaycha.onrender.com/",
   },
 
   {
@@ -17,15 +27,6 @@ export const projects = [
     image: "/game_store.png",
     sourceCode: "https://github.com/Its-Nyein/game-shop",
     liveAt: "https://gameshopie.vercel.app/",
-  },
-
-  {
-    title: "Shopify",
-    description: "Animated modern E-commerce website.",
-    stacks: ["React.js", "Tailwind CSS"],
-    image: "/shopify.png",
-    sourceCode: "https://github.com/Its-Nyein/shopify",
-    liveAt: "https://eshopify.vercel.app/",
   },
 
   {
