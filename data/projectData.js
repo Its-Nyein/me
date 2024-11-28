@@ -1,5 +1,14 @@
 export const projects = [
   {
+    title: "Moviemissile",
+    description:
+      "Moviemissile is movie info app with a variety of features and pagination that uses The Movie Database (TMDb) API.",
+    stacks: ["React.js", "Tailwind", "Firebase"],
+    image: "/moviemissile.png",
+    sourceCode: "https://github.com/Its-Nyein/moviemissile",
+    liveAt: "https://moviemizzy.vercel.app/",
+  },
+  {
     title: "M3RN Estate",
     description:
       "Build a dynamic features of Modern Real Estate Marketplace with react MERN Stack(jwt, redux toolkit)",

@@ -3,19 +3,29 @@ import { projects } from "@/data/projectData";
 import { CustomLink } from "./CustomLink";
 import { Heading } from "./Heading";
 import Image from "next/image";
+import { useState } from "react";
 
 export function ProjectSection() {
+
+    const [showAll, setShowAll] = useState(false)
+
+    const toogleShowAll = () => {
+        setShowAll(!showAll)
+    }
+
     return (
         <section id="project" className="scroll-mt-28">
             <Heading title="Projects" description="Some projects I've built:"/>
 
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {projects.map(project => {
+                {projects.slice(0, showAll ? projects.length : 6).map(project => {
                     return <ProjectCard key={project.title} project={project}/>
                 })}
             </div>
             <div className="flex mt-10 justify-center">
-                <CustomLink href="https://github.com/Its-Nyein" className="border rounded-md py-3 px-6" linkType="secondary">See More</CustomLink>
+                <button onClick={toogleShowAll} className="border rounded-md py-3 px-6">
+                    {showAll ? "See Less" : "See More"}
+                </button>
             </div>
         </section>
     )
