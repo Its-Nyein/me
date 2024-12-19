@@ -51,16 +51,15 @@ function TimelineSection() {
 
       <div className="flex justify-center">
         <div className="relative w-4/5 lg:w-3/4">
-          <div className={`${styles['center-line']} dark:bg-gray-200`}></div>
+          <div className={`${styles['center-line']} bg-gray-200 dark:bg-gray-200`}></div>
 
           {timeline.map(({icon: Icon, description, time, content}, index) => {
-            // const IconComponent = el.icon
             return (
               <div
                 className={`${styles[`${index % 2 === 0 ? 'left' : 'right'}`]} mt-10 lg:mx-10`}
                 key={index}
               >
-                <div className={`${styles.content} shadow-neuro dark:shadow-neuro-dark`}>
+                <div className={`${styles.content} shadow-neuro-dark dark:shadow-neuro-dark`}>
                   <i className={`theme shadow-md relative`}>
                     <Icon className="text-2xl absolute left-[5px] top-1"/>
                   </i>
