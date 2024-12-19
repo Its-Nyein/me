@@ -29,13 +29,13 @@ export const projects = [
   },
 
   {
-    title: "Game Store",
+    title: "Shadcn Table",
     description:
-      "A game store e-commerce project with incorporating dynamic features.",
-    stacks: ["React.js", "Bootstrap"],
-    image: "/game_store.png",
-    sourceCode: "https://github.com/Its-Nyein/game-shop",
-    liveAt: "https://gameshopie.vercel.app/",
+      "A data table component with server side rendering, pagination, sorting, filtering and custom view.",
+    stacks: ["Next.js", "Shadcn/ui", "Zustand"],
+    image: "/shadcn_table.png",
+    sourceCode: "https://github.com/Its-Nyein/shadcn-table",
+    liveAt: "https://shadcnui-view-table.vercel.app/",
   },
 
   {
@@ -56,6 +56,16 @@ export const projects = [
     image: "/note_app.png",
     sourceCode: "https://github.com/Its-Nyein/note-app",
     liveAt: "https://notiesapp.vercel.app/",
+  },
+
+  {
+    title: "Game Store",
+    description:
+      "A game store e-commerce project with incorporating dynamic features.",
+    stacks: ["React.js", "Bootstrap"],
+    image: "/game_store.png",
+    sourceCode: "https://github.com/Its-Nyein/game-shop",
+    liveAt: "https://gameshopie.vercel.app/",
   },
 
   {
