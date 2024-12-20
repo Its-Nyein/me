@@ -9,7 +9,7 @@ interface Iprops extends LinkProps {
 }
 
 const styled = {
-    baseStyled: "px-6 py-2 rounded-full inline-block text-sm cursor-pointer",
+    baseStyled: "px-6 py-2 rounded-lg inline-block text-sm cursor-pointer",
     primary: "bg-zinc-100 text-zinc-900",
     secondary: "border border-zinc-700 hover:bg-gray-800 rounded-md",
     link: "text-zinc-400 hover:text-zinc-50 hover:underline",
