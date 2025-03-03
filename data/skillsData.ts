@@ -1,4 +1,4 @@
-import { FaReact, FaHtml5,FaCss3, FaPhp, FaLaravel, FaPython, FaAngular, FaNodeJs  } from "react-icons/fa";
+import { FaReact, FaHtml5,FaCss3, FaPhp, FaLaravel, FaPython, FaAngular, FaNodeJs, FaVuejs  } from "react-icons/fa";
 import {
     SiJavascript,
     SiTailwindcss,
@@ -7,8 +7,7 @@ import {
 import { FaBootstrap } from "react-icons/fa6";
 import { GrMysql } from "react-icons/gr";
 import { IoLogoFirebase } from "react-icons/io5";
-import { SiTypescript } from 'react-icons/si';
-import { SiNextdotjs } from "react-icons/si";
+import { SiTypescript, SiNestjs, SiNextdotjs } from 'react-icons/si';  
 
 
 export const skills = {
@@ -46,6 +45,12 @@ export const skills = {
             },
 
             {
+                stack: "VueJs",
+                icon: FaVuejs,
+                color: '#42B883'
+            },
+
+            {
                 stack: "HTML5",
                 icon: FaHtml5,
                 color: '#E34F26'
@@ -77,6 +82,12 @@ export const skills = {
                 stack: "NodeJs",
                 icon: FaNodeJs,
                 color: '#68A063'
+            },
+
+            {
+                stack: "NestJs",
+                icon: SiNestjs,
+                color: '#E0234E'
             },
 
             // {
