@@ -9,6 +9,15 @@ export const projects = [
     liveAt: "https://moviemizzy.vercel.app/",
   },
   {
+    title: "PingX",
+    description:
+      "PingX is a modern Full-stack event monitoring SaaS with fully features. Get instant notifications for sales, new users, or any other event sent directly to your Discord.",
+    stacks: ["Next.js", "Tailwind", "Shadcn/ui", "Postgres", "Clerk"],
+    image: "/ping_x.png",
+    sourceCode: "https://github.com/Its-Nyein/pingX",
+    liveAt: "https://ping-x.netlify.app/",
+  },
+  {
     title: "M3RN Estate",
     description:
       "Build a dynamic features of Modern Real Estate Marketplace with react MERN Stack(jwt, redux toolkit)",
@@ -32,7 +41,7 @@ export const projects = [
     title: "Shadcn Table",
     description:
       "A data table component with server side rendering, pagination, sorting, filtering and custom view.",
-    stacks: ["Next.js", "Shadcn/ui", "Zustand"],
+    stacks: ["Next.js", "Shadcn/ui", "Zod", "Zustand"],
     image: "/shadcn_table.png",
     sourceCode: "https://github.com/Its-Nyein/shadcn-table",
     liveAt: "https://shadcnui-view-table.vercel.app/",

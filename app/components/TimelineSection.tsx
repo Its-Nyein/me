@@ -6,7 +6,7 @@ import { Heading } from "./Heading";
 
 type TimelineItem = {
   description: string;
-  icon: React.ComponentType<{className?: string}>;
+  icon: React.ComponentType<{ className?: string }>;
   time: string;
   content?: () => JSX.Element;
 };
@@ -27,7 +27,7 @@ const timeline: TimelineItem[] = [
   {
     description: "Associate Developer at Partner Associates",
     icon: FaBriefcase,
-    time: "Apr 2024 - Present",
+    time: "Apr 2024 - Nov 2024",
     content: () => (
       <h3 className="mb-2 font-semibold">
         Associate Developer at&nbsp;
@@ -42,34 +42,62 @@ const timeline: TimelineItem[] = [
       </h3>
     ),
   },
+
+  {
+    description: "Full-stack Developer at Blue Ocean",
+    icon: FaBriefcase,
+    time: "Jan 2025 - Present",
+    content: () => (
+      <h3 className="mb-2 font-semibold">
+        Full-stack Developer at&nbsp;
+        <a
+          href="https://blueoceanmm.com/"
+          style={{ color: "#6d93cb" }}
+          target="_blank"
+          rel=""
+        >
+          Blue Ocean
+        </a>
+      </h3>
+    ),
+  },
 ];
 
 function TimelineSection() {
   return (
-    <section className={`${styles.timeline} mb-36 mt-[90px] scroll-mt-20`} id="timeline">
-      <Heading title="Timeline" description="My Timeline:"/>
+    <section
+      className={`${styles.timeline} mb-36 mt-[90px] scroll-mt-20`}
+      id="timeline"
+    >
+      <Heading title="Timeline" description="My Timeline:" />
 
       <div className="flex justify-center">
         <div className="relative w-4/5 lg:w-3/4">
-          <div className={`${styles['center-line']} bg-gray-200 dark:bg-gray-200`}></div>
+          <div
+            className={`${styles["center-line"]} bg-gray-200 dark:bg-gray-200`}
+          ></div>
 
-          {timeline.map(({icon: Icon, description, time, content}, index) => {
+          {timeline.map(({ icon: Icon, description, time, content }, index) => {
             return (
               <div
-                className={`${styles[`${index % 2 === 0 ? 'left' : 'right'}`]} mt-10 lg:mx-10`}
+                className={`${
+                  styles[`${index % 2 === 0 ? "left" : "right"}`]
+                } mt-10 lg:mx-10`}
                 key={index}
               >
-                <div className={`${styles.content} shadow-neuro-dark dark:shadow-neuro-dark`}>
+                <div
+                  className={`${styles.content} shadow-neuro-dark dark:shadow-neuro-dark`}
+                >
                   <i className={`theme shadow-md relative`}>
-                    <Icon className="text-2xl absolute left-[5px] top-1"/>
+                    <Icon className="text-2xl absolute left-[5px] top-1" />
                   </i>
 
-                  {content && typeof content === 'function' ? (
+                  {content && typeof content === "function" ? (
                     content()
                   ) : (
                     <h3 className="mb-2 font-semibold">{description}</h3>
                   )}
-                  
+
                   <p className="text-secondary">{time}</p>
                 </div>
               </div>
