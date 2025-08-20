@@ -46,7 +46,7 @@ const timeline: TimelineItem[] = [
   {
     description: "Full-stack Developer at Blue Ocean",
     icon: FaBriefcase,
-    time: "Jan 2025 - Present",
+    time: "Jan 2025 - June 2025",
     content: () => (
       <h3 className="mb-2 font-semibold">
         Full-stack Developer at&nbsp;
@@ -57,6 +57,25 @@ const timeline: TimelineItem[] = [
           rel=""
         >
           Blue Ocean
+        </a>
+      </h3>
+    ),
+  },
+
+  {
+    description: "Full-stack Web Developer at Plus Impact",
+    icon: FaBriefcase,
+    time: "August 2025 - Present",
+    content: () => (
+      <h3 className="mb-2 font-semibold">
+        Full-stack Web Developer at&nbsp;
+        <a
+          href="https://www.plustalent.co/"
+          style={{ color: "#6d93cb" }}
+          target="_blank"
+          rel=""
+        >
+          Plus Impact
         </a>
       </h3>
     ),
